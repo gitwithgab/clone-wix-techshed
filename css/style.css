@@ -1,0 +1,193 @@
+/* variables declaration*/
+:root
+{
+    --primary-bg-color:white;
+    --secondary-bg-color:#edecec;
+    --tertiary-bg-color:black;
+
+    --primary-txt-color:black;
+    --secondary-txt-color:white;
+    --tertiary-txt-color:#7620ff;
+
+    --primary-btn-bg-color:#7620ff;
+    --secondary-btn-bg-color:black;
+}
+
+/*CSS reset*/
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+/*UTILITIES  CLASSES*/
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img
+{
+    max-width: 1200px;
+}
+
+/*********HEADER*********/
+
+a
+{
+    text-decoration: none;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+.nav-top
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--tertiary-bg-color);
+    color:var(--secondary-txt-color);
+    height:40px;
+    padding:10px 0 0 30px;
+}
+
+.nav-top a
+{
+    padding-right: 10px;
+    color:var(--secondary-txt-color);
+    text-decoration:underline;
+}
+
+.nav-middle
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--primary-bg-color);
+    color:var(--primary-txt-color);
+    height:70px;
+    padding:10px 0 0 30px;
+}
+
+.nav-middle a
+{
+    padding-right: 10px;
+    color:var(--primary-txt-color);
+}
+
+.nav-middle h1
+{
+    font-size: 2.5rem;
+}
+
+.nav-bottom
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-color: var(--secondary-bg-color);
+    color:var(--primary-txt-color);
+    height:40px;
+    padding:10px 0 0 30px;
+}
+
+.nav-bottom a
+{
+    padding-right: 10px;
+    color:var(--primary-txt-color);
+}
+
+#call-us-txt
+{
+    text-decoration: none;
+}
+
+#chat
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: right;
+    vertical-align:bottom;
+}
+
+.fa-comment
+{
+    position: fixed;
+    bottom:0;
+    right:0;
+    padding: 0 20px 20px 0;
+    color:red;
+    font-size:4rem;
+}
+
+/*************HERO*****************/
+.hero
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    background-image: url("../img/electronics-carousel-2.png");
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/***********ACCEPTED PAYMENTS************/
+.general
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#social-links li 
+{
+    display: inline-block;
+    padding-right: 30px;
+    color:var(--primary-txt-color);
+}
+
+#social-links a
+{
+    color:var(--primary-txt-color);
+    font-size:1rem;
+}
+
+.acc-payments
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items:center;
+    margin: 20px 0 20px 0;
+}
+
+.acc-payments>p
+{
+    margin: 60px 40px;
+}
+
+.acc-payments img
+{
+    height:50px;
+    width:auto;
+    padding-right:30px;
+}
+
+.copyright
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding-top:16px;
+    background-color: var(--secondary-bg-color);
+    height:50px;
+}
+
+#wix-text>a
+{
+    color:black;
+    text-decoration: underline;
+}
