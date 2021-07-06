@@ -1,4 +1,7 @@
-# HOME PAGE
+# WIX WEBSITE CLONE OF ELECTRONICS STORE
+Built using HTML and CSS
+ 
+## HOME PAGE
 
 ![](img/homepage-readme.png)
 
